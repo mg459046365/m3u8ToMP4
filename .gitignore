@@ -185,4 +185,7 @@ Dependencies/
 ### Xcode Patch ###
 **/xcshareddata/WorkspaceSettings.xcsettings
 
+**/M3U8TOMP4Demo/M3U8TOMP4Demo/FFmpeg-iOS
+
+
 # End of https://www.gitignore.io/api/git,xcode,swift,macos,cocoapods,objective-c
