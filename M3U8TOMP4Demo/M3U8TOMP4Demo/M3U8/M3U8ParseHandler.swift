@@ -10,7 +10,7 @@ import Foundation
 
 protocol M3U8ParseHandlerProtocol {
     /// 解析完成
-    func parseFinish(parser:M3U8ParseHandler, M3U8: M3U8Model?, error: Error?)
+    func parseFinish(parser: M3U8ParseHandler, M3U8: M3U8Model?, error: Error?)
 }
 
 class M3U8ParseHandler {
@@ -18,46 +18,45 @@ class M3U8ParseHandler {
     let m3u8URL: String
     /// 代理
     var delegate: M3U8ParseHandlerProtocol?
-    
+
     init(_ url: String) {
         m3u8URL = url
     }
-    
+
     lazy var tsURLPrefix: String = {
         let range = self.m3u8URL.range(of: "/", options: String.CompareOptions.backwards, range: nil, locale: nil)!
-        let pre = self.m3u8URL[self.m3u8URL.startIndex...range.lowerBound]
+        let pre = self.m3u8URL[self.m3u8URL.startIndex ... range.lowerBound]
         return String(describing: pre)
     }()
-    
+
     func start() {
-        self.parse()
+        parse()
     }
-    
+
     private func parse() {
-        
         guard m3u8URL.hasPrefix("http://") || m3u8URL.hasPrefix("https://") else {
             if let delegate = self.delegate {
                 delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 1, message: "链接错误"))
             }
             return
         }
-        
-        guard m3u8URL.hasSuffix(".m3u8") else {
-            if let delegate = self.delegate {
-                delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 1, message: "链接错误"))
-            }
-            return
-        }
-        
+
+//        guard m3u8URL.hasSuffix(".m3u8") else {
+//            if let delegate = self.delegate {
+//                delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 1, message: "链接错误"))
+//            }
+//            return
+//        }
+
         guard let resURL = URL(string: m3u8URL) else {
             if let delegate = self.delegate {
                 delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 1, message: "链接错误"))
             }
             return
         }
-        
+
         let m3u8Str = try? String(contentsOf: resURL, encoding: .utf8)
-        
+
         guard let resultStr = m3u8Str else {
             if let delegate = self.delegate {
                 delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 2, message: "M3U8信息错误"))
@@ -73,51 +72,60 @@ class M3U8ParseHandler {
             }
             return
         }
-        var handlerStr = resultStr
-        var index = 0
+        var array = resultStr.components(separatedBy: headStr)
+        array.removeFirst()
+        if array.isEmpty {
+            if let delegate = self.delegate {
+                delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 2, message: "M3U8信息缺少TS文件信息"))
+            }
+            return
+        }
         var items = [M3U8TSModel]()
-        
-        while extinfRange != nil {
-            let commaIndex = handlerStr.firstIndex(of: ",")
+        for i in 0 ..< array.count {
+            let item = array[i]
+            let commaIndex = item.firstIndex(of: ",")
             guard let ci = commaIndex else {
                 if let delegate = self.delegate {
                     delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 2, message: "M3U8信息缺少TS文件信息"))
                 }
                 return
             }
-            let durationStr = String(describing: handlerStr[extinfRange!.upperBound ..< ci])
+
+            let durationStr = String(describing: item[item.startIndex ..< ci])
             let duration = Double(durationStr)
-            let tsRange = handlerStr.range(of: ".ts")
-            if tsRange == nil {
+            var tmpStr = item
+            if i == array.count - 1 {
+                let tmlist = tmpStr.components(separatedBy: "#EXT-X-ENDLIST")
+                tmpStr = tmlist.first!
+            }
+            if tmpStr.hasSuffix("\n") {
+                let index = tmpStr.index(tmpStr.endIndex, offsetBy: -2)
+                tmpStr = String(describing: tmpStr[tmpStr.startIndex ... index])
+            }
+           
+            let tmpArray = tmpStr.components(separatedBy: "\n")
+            if tmpArray.isEmpty {
                 if let delegate = self.delegate {
                     delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 2, message: "M3U8信息缺少TS文件信息"))
                 }
                 return
             }
-            let start = handlerStr.index(after: ci)
-            var tsName = String(describing: handlerStr[start ..< tsRange!.lowerBound])
-            let lineRange = tsName.range(of: "\n")
-            if lineRange != nil {
-                tsName = String(describing: tsName[lineRange!.upperBound...])
+            let tsNameOrURL = tmpArray.last!
+            var tsFileName = tsNameOrURL
+            var tsURL = tsURLPrefix + tsFileName
+            if tsNameOrURL.hasPrefix("https://") || tsNameOrURL.hasPrefix("http://") {
+                tsURL = tsNameOrURL
+                tsFileName = "\(i)"
             }
-            tsName = tsName.replacingOccurrences(of: "\t", with: "")
-            tsName = tsName.replacingOccurrences(of: "\n", with: "")
-            
-            let tsFileName = tsName + ".ts"
-            let tsURL = self.tsURLPrefix + tsFileName
-            
+
             let model = M3U8TSModel()
             model.durationStr = durationStr
-            model.name = tsName
-            
+            model.name = tsFileName
+
             model.url = tsURL
             model.duration = duration
-            model.index = index
+            model.index = i
             items.append(model)
-            
-            handlerStr = String(describing: handlerStr[tsRange!.upperBound...])
-            index += 1
-            extinfRange = handlerStr.range(of: headStr)
         }
         if items.isEmpty {
             if let delegate = self.delegate {
@@ -125,7 +133,7 @@ class M3U8ParseHandler {
             }
             return
         }
-        //解析完毕了所有的TS片段
+        // 解析完毕了所有的TS片段
         if let delegate = self.delegate {
             let model = M3U8Model()
             model.url = m3u8URL

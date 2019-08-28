@@ -25,6 +25,7 @@ class ViewController: UIViewController, M3U8ParseHandlerProtocol {
     let testTSPath = Bundle.main.path(forResource: "100000002_record_result", ofType: "ts")
     let testMP4Path = NSHomeDirectory() + "/Documents" + "/" + "test" + ".mp4"
     let url = "http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8"
+//    let url = "https://scpub-oss1.antelopecloud.cn/records/m3u8_info2/1566871533_1566871564.m3u8?access_token=540410181_3356491776_1598269035_3f2016cdb608714b606a99234929037c&head=1"
 
     override func viewDidLoad() {
         super.viewDidLoad()
