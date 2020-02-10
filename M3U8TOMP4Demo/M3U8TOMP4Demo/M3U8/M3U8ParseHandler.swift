@@ -65,7 +65,7 @@ class M3U8ParseHandler {
         }
         let headStr = "#EXTINF:"
         // 解析TS文件
-        var extinfRange = resultStr.range(of: headStr)
+        let extinfRange = resultStr.range(of: headStr)
         if extinfRange == nil {
             if let delegate = self.delegate {
                 delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 2, message: "M3U8信息缺少TS文件信息"))

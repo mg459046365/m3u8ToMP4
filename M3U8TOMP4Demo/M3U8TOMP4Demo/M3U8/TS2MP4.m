@@ -20,13 +20,16 @@
         return [NSError errorWithDomain:@"TS2MP4Domain" code:10001 userInfo:@{NSLocalizedDescriptionKey: @"输出文件路径错误"}];
     }
     if ([tsPath stringByReplacingOccurrencesOfString:@" " withString:@""].length <= 0) {
-        return [NSError errorWithDomain:@"TS2MP4Domain" code:10000 userInfo:@{NSLocalizedDescriptionKey: @"TS文件路径错误"}];
+        return [NSError errorWithDomain:@"TS2MP4Domain" code:10002 userInfo:@{NSLocalizedDescriptionKey: @"TS文件路径错误"}];
     }
     if ([mp4Path stringByReplacingOccurrencesOfString:@" " withString:@""].length <= 0) {
-       return [NSError errorWithDomain:@"TS2MP4Domain" code:10001 userInfo:@{NSLocalizedDescriptionKey: @"输出文件路径错误"}];
+       return [NSError errorWithDomain:@"TS2MP4Domain" code:10003 userInfo:@{NSLocalizedDescriptionKey: @"输出文件路径错误"}];
     }
     if (![[NSFileManager defaultManager] fileExistsAtPath:tsPath]) {
-        return [NSError errorWithDomain:@"TS2MP4Domain" code:10002 userInfo:@{NSLocalizedDescriptionKey: @"TS文件不存在"}];
+        return [NSError errorWithDomain:@"TS2MP4Domain" code:10004 userInfo:@{NSLocalizedDescriptionKey: @"TS文件不存在"}];
+    }
+    if ([[NSFileManager defaultManager] fileExistsAtPath:mp4Path]) {
+        [[NSFileManager defaultManager] removeItemAtPath:mp4Path error:nil];
     }
     
     // ffmpeg语法，可根据需求自行更改
@@ -34,21 +37,24 @@
 //    NSString *commandStr = [NSString stringWithFormat:@"ffmpeg!#$-ss!#$00:00:00!#$-i!#$%@!#$-b:v!#$2000K!#$-y!#$%@", tsPath, mp4Path];//47s,太慢
 //    NSString *commandStr = [NSString stringWithFormat:@"ffmpeg!#$-y!#$-i!#$%@!#$-vcodec!#$copy!#$-acodec!#$copy!#$-vbsf!#$h264_mp4toannexb!#$%@", tsPath, mp4Path];
     NSString *commandStr = [NSString stringWithFormat:@"ffmpeg!#$-i!#$%@!#$-acodec!#$copy!#$-vcodec!#$copy!#$-f!#$mp4!#$%@", tsPath, mp4Path];
+//    commandStr = [NSString stringWithFormat:@"ffmpeg!#$-i!#$%@!#$-c:v!#$copy!#$-c:a!#$libfdk_aac!#$%@", tsPath, mp4Path];
+//    commandStr = [NSString stringWithFormat:@"ffmpeg!#$-i!#$%@!#$%@", tsPath, mp4Path];
+//    commandStr = [NSString stringWithFormat:@"ffmpeg!#$-i!#$%@!#$-c:v!#$copy!#$-c:a!#$aac!#$%@", tsPath, mp4Path];
     int res =  [TS2MP4 runCmd:commandStr];
     if (res != 0) {
-        return [NSError errorWithDomain:@"TS2MP4Domain" code:10003 userInfo:@{NSLocalizedDescriptionKey: @"转换失败, 请检查TS文件"}];
+        return [NSError errorWithDomain:@"TS2MP4Domain" code:10005 userInfo:@{NSLocalizedDescriptionKey: @"转换失败, 请检查TS文件"}];
     }
     if (![NSFileManager.defaultManager fileExistsAtPath:mp4Path]) {
-        return [NSError errorWithDomain:@"TS2MP4Domain" code:10003 userInfo:@{NSLocalizedDescriptionKey: @"转换失败, 请检查TS文件"}];
+        return [NSError errorWithDomain:@"TS2MP4Domain" code:10006 userInfo:@{NSLocalizedDescriptionKey: @"转换失败, 请检查TS文件"}];
     }
     NSError *error = nil;
     NSDictionary *fileAttr = [NSFileManager.defaultManager attributesOfItemAtPath:mp4Path error:&error];
     if (error || !fileAttr) {
-        return [NSError errorWithDomain:@"TS2MP4Domain" code:10003 userInfo:@{NSLocalizedDescriptionKey: @"转换失败, 请检查TS文件"}];
+        return [NSError errorWithDomain:@"TS2MP4Domain" code:10007 userInfo:@{NSLocalizedDescriptionKey: @"转换失败, 请检查TS文件"}];
     }
     AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:[NSURL fileURLWithPath:mp4Path] options:nil];
     if (CMTimeGetSeconds(asset.duration) <= 0 || asset.tracks.count <= 0) {
-        return [NSError errorWithDomain:@"TS2MP4Domain" code:10004 userInfo:@{NSLocalizedDescriptionKey: @"转换失败, 请检查TS文件"}];
+        return [NSError errorWithDomain:@"TS2MP4Domain" code:10008 userInfo:@{NSLocalizedDescriptionKey: @"转换失败, 请检查TS文件"}];
     }
     asset = nil;
     return nil;

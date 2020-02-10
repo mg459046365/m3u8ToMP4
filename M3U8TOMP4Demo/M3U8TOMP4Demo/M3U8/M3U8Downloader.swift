@@ -103,104 +103,104 @@ class M3U8Downloader {
         print("转换完毕\(Date().timeIntervalSince1970)")
     }
     
-    
-    private func TSToMP4() {
-        let item = self.model.items![0]
-        let asset = AVURLAsset(url: URL(fileURLWithPath: item.desPath!))
-        let compatiblePresets = AVAssetExportSession.exportPresets(compatibleWith: asset)
-        guard compatiblePresets.contains(AVAssetExportPresetLowQuality) else {
-            print("失败了")
-            return
-        }
-        if !FileManager.default.fileExists(atPath: self.mp4Path) {
-            FileManager.default.createFile(atPath: self.mp4Path, contents: nil, attributes: nil)
-        }
-        let session = AVAssetExportSession(asset: asset, presetName: AVAssetExportPresetMediumQuality)
-        session?.outputURL = URL(fileURLWithPath: self.mp4Path)
-        session?.outputFileType = AVFileType.mp4
-        session?.exportAsynchronously(completionHandler: {
-            //这里非主线程
-            var tmpString = "转换失败"
-            if session?.status == AVAssetExportSession.Status.completed {
-                tmpString = "输出成功"
-            }else if session?.status == AVAssetExportSession.Status.failed {
-                tmpString = "转换失败"
-            }else if session?.status == AVAssetExportSession.Status.cancelled {
-                tmpString = "任务取消"
-            }else if session?.status == AVAssetExportSession.Status.exporting {
-                tmpString = "转换ing"
-            }else if session?.status == AVAssetExportSession.Status.waiting {
-                tmpString = "等待ing"
-            }else{
-                tmpString = "未知错误"
-            }
-            print("转换结果=\(tmpString)")
-        })
-    }
-    
-    
-    
-    private func compositionVideo() {
-        let composition = AVMutableComposition()
-        let compositionTrack = composition.addMutableTrack(withMediaType: AVMediaType.video, preferredTrackID: kCMPersistentTrackID_Invalid)
-        compositionTrack!.preferredVolume = 1.0
-        
-        var success = true
-        
-        for item in self.model.items! {
-            let videoAsset = AVURLAsset(url: URL(fileURLWithPath: item.desPath!))
-            let trackArray = videoAsset.tracks(withMediaType: .video)
-            if trackArray.isEmpty {
-                print("错误1")
-                success = false
-                break
-            }
-            let track = trackArray[0]
-            let timeRange = CMTimeRangeMake(start: CMTime.zero, duration: videoAsset.duration)
-            do {
-                try compositionTrack?.insertTimeRange(timeRange, of: track, at: CMTime.zero)
-            } catch {
-                print("错误1")
-                success = false
-                break
-            }
-        }
-        if !success {
-            print("转换失败了，退出")
-            return
-        }
-        
-        let exportSession = AVAssetExportSession(asset:composition, presetName: AVAssetExportPresetMediumQuality)
-        guard let session = exportSession else {
-            print("exportSession没有值")
-            return
-        }
-        let temporaryFileName = self.mp4Path
-        session.outputURL = URL(fileURLWithPath: temporaryFileName)
-        session.outputFileType = AVFileType.mp4
-        print("开始转换")
-        session.exportAsynchronously(completionHandler: { () -> Void in
-            //这里非主线程
-            var tmpString = "转换失败"
-            if session.status == AVAssetExportSession.Status.completed{
-                tmpString = "输出成功"
-            }else if session.status == AVAssetExportSession.Status.failed{
-                tmpString = "转换失败"
-            }else if session.status == AVAssetExportSession.Status.cancelled{
-                tmpString = "任务取消"
-            }else if session.status == AVAssetExportSession.Status.exporting{
-                tmpString = "转换ing"
-            }else if session.status == AVAssetExportSession.Status.waiting{
-                tmpString = "等待ing"
-            }else{
-                tmpString = "未知错误"
-            }
-            print("转换结果=\(tmpString)")
-        })
-    }
-    
-    
-    
+//    
+//    private func TSToMP4() {
+//        let item = self.model.items![0]
+//        let asset = AVURLAsset(url: URL(fileURLWithPath: item.desPath!))
+//        let compatiblePresets = AVAssetExportSession.exportPresets(compatibleWith: asset)
+//        guard compatiblePresets.contains(AVAssetExportPresetLowQuality) else {
+//            print("失败了")
+//            return
+//        }
+//        if !FileManager.default.fileExists(atPath: self.mp4Path) {
+//            FileManager.default.createFile(atPath: self.mp4Path, contents: nil, attributes: nil)
+//        }
+//        let session = AVAssetExportSession(asset: asset, presetName: AVAssetExportPresetMediumQuality)
+//        session?.outputURL = URL(fileURLWithPath: self.mp4Path)
+//        session?.outputFileType = AVFileType.mp4
+//        session?.exportAsynchronously(completionHandler: {
+//            //这里非主线程
+//            var tmpString = "转换失败"
+//            if session?.status == AVAssetExportSession.Status.completed {
+//                tmpString = "输出成功"
+//            }else if session?.status == AVAssetExportSession.Status.failed {
+//                tmpString = "转换失败"
+//            }else if session?.status == AVAssetExportSession.Status.cancelled {
+//                tmpString = "任务取消"
+//            }else if session?.status == AVAssetExportSession.Status.exporting {
+//                tmpString = "转换ing"
+//            }else if session?.status == AVAssetExportSession.Status.waiting {
+//                tmpString = "等待ing"
+//            }else{
+//                tmpString = "未知错误"
+//            }
+//            print("转换结果=\(tmpString)")
+//        })
+//    }
+//    
+//    
+//    
+//    private func compositionVideo() {
+//        let composition = AVMutableComposition()
+//        let compositionTrack = composition.addMutableTrack(withMediaType: AVMediaType.video, preferredTrackID: kCMPersistentTrackID_Invalid)
+//        compositionTrack!.preferredVolume = 1.0
+//        
+//        var success = true
+//        
+//        for item in self.model.items! {
+//            let videoAsset = AVURLAsset(url: URL(fileURLWithPath: item.desPath!))
+//            let trackArray = videoAsset.tracks(withMediaType: .video)
+//            if trackArray.isEmpty {
+//                print("错误1")
+//                success = false
+//                break
+//            }
+//            let track = trackArray[0]
+//            let timeRange = CMTimeRangeMake(start: CMTime.zero, duration: videoAsset.duration)
+//            do {
+//                try compositionTrack?.insertTimeRange(timeRange, of: track, at: CMTime.zero)
+//            } catch {
+//                print("错误1")
+//                success = false
+//                break
+//            }
+//        }
+//        if !success {
+//            print("转换失败了，退出")
+//            return
+//        }
+//        
+//        let exportSession = AVAssetExportSession(asset:composition, presetName: AVAssetExportPresetMediumQuality)
+//        guard let session = exportSession else {
+//            print("exportSession没有值")
+//            return
+//        }
+//        let temporaryFileName = self.mp4Path
+//        session.outputURL = URL(fileURLWithPath: temporaryFileName)
+//        session.outputFileType = AVFileType.mp4
+//        print("开始转换")
+//        session.exportAsynchronously(completionHandler: { () -> Void in
+//            //这里非主线程
+//            var tmpString = "转换失败"
+//            if session.status == AVAssetExportSession.Status.completed{
+//                tmpString = "输出成功"
+//            }else if session.status == AVAssetExportSession.Status.failed{
+//                tmpString = "转换失败"
+//            }else if session.status == AVAssetExportSession.Status.cancelled{
+//                tmpString = "任务取消"
+//            }else if session.status == AVAssetExportSession.Status.exporting{
+//                tmpString = "转换ing"
+//            }else if session.status == AVAssetExportSession.Status.waiting{
+//                tmpString = "等待ing"
+//            }else{
+//                tmpString = "未知错误"
+//            }
+//            print("转换结果=\(tmpString)")
+//        })
+//    }
+//    
+//    
+//    
     private func tsFilePath(model: M3U8TSModel) -> String {
         let url = self.desDir + "/" + model.name! + ".ts"
         return url

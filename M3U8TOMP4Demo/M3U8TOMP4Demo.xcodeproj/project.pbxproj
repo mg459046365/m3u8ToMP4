@@ -13,6 +13,7 @@
 		B42F605422DCAE8A00937C75 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42F605322DCAE8A00937C75 /* AVFoundation.framework */; };
 		B4473EF622DC7B2000D415B9 /* M3U8ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4473EF522DC7B2000D415B9 /* M3U8ParseError.swift */; };
 		B4473EF922DC7DE200D415B9 /* M3U8TSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4473EF822DC7DE200D415B9 /* M3U8TSModel.swift */; };
+		B498250B23F1080100DC4812 /* 1581232248000_1581232271000_result.ts in Resources */ = {isa = PBXBuildFile; fileRef = B498250A23F1080100DC4812 /* 1581232248000_1581232271000_result.ts */; };
 		B4A8209F22DC6A2900893A02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A8209E22DC6A2900893A02 /* AppDelegate.swift */; };
 		B4A820A622DC6A2900893A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A820A422DC6A2900893A02 /* Main.storyboard */; };
 		B4A820A822DC6A2C00893A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A820A722DC6A2C00893A02 /* Assets.xcassets */; };
@@ -23,7 +24,6 @@
 		B4ECAFB322DD812300C2FFF6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECAFB222DD811A00C2FFF6 /* libz.tbd */; };
 		B4ECAFB522DD813A00C2FFF6 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECAFB422DD812C00C2FFF6 /* libbz2.tbd */; };
 		B4ECAFB722DD815300C2FFF6 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECAFB622DD814300C2FFF6 /* libiconv.tbd */; };
-		B4ECAFB822DD815C00C2FFF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42F605322DCAE8A00937C75 /* AVFoundation.framework */; };
 		B4ECAFBA22DD816500C2FFF6 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECAFB922DD816500C2FFF6 /* VideoToolbox.framework */; };
 		B4ECB0F522DDA2AE00C2FFF6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECB0F422DDA2AE00C2FFF6 /* AudioToolbox.framework */; };
 		B4ECB0F722DDA2B600C2FFF6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECB0F622DDA2B600C2FFF6 /* CoreMedia.framework */; };
@@ -53,6 +53,7 @@
 		B42F605322DCAE8A00937C75 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B4473EF522DC7B2000D415B9 /* M3U8ParseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M3U8ParseError.swift; sourceTree = "<group>"; };
 		B4473EF822DC7DE200D415B9 /* M3U8TSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M3U8TSModel.swift; sourceTree = "<group>"; };
+		B498250A23F1080100DC4812 /* 1581232248000_1581232271000_result.ts */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1581232248000_1581232271000_result.ts; sourceTree = "<group>"; };
 		B4A8209B22DC6A2900893A02 /* M3U8TOMP4Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M3U8TOMP4Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A8209E22DC6A2900893A02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A820A522DC6A2900893A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -231,7 +232,6 @@
 				B42F605422DCAE8A00937C75 /* AVFoundation.framework in Frameworks */,
 				B4ECAFBA22DD816500C2FFF6 /* VideoToolbox.framework in Frameworks */,
 				B4ECB44022DDD28100C2FFF6 /* libswscale.a in Frameworks */,
-				B4ECAFB822DD815C00C2FFF6 /* AVFoundation.framework in Frameworks */,
 				B4ECB43B22DDD28100C2FFF6 /* libavfilter.a in Frameworks */,
 				B4ECB0F722DDA2B600C2FFF6 /* CoreMedia.framework in Frameworks */,
 				B4ECB43C22DDD28100C2FFF6 /* libavcodec.a in Frameworks */,
@@ -274,6 +274,7 @@
 		B4473EF722DC7DB500D415B9 /* M3U8 */ = {
 			isa = PBXGroup;
 			children = (
+				B498250A23F1080100DC4812 /* 1581232248000_1581232271000_result.ts */,
 				B4ECB44E22DDE53500C2FFF6 /* 100000002_record_result.ts */,
 				B4ECB2EF22DDBE9400C2FFF6 /* 100000002_record.m3u8 */,
 				B4AB9BBD230E3E79004868F2 /* M3U8ParseHandler.swift */,
@@ -620,7 +621,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = Beryter;
 				TargetAttributes = {
 					B4A8209A22DC6A2900893A02 = {
@@ -655,6 +656,7 @@
 				B4A820AB22DC6A2C00893A02 /* LaunchScreen.storyboard in Resources */,
 				B4ECB2F022DDBE9400C2FFF6 /* 100000002_record.m3u8 in Resources */,
 				B4ECB44F22DDE53500C2FFF6 /* 100000002_record_result.ts in Resources */,
+				B498250B23F1080100DC4812 /* 1581232248000_1581232271000_result.ts in Resources */,
 				B4A820A822DC6A2C00893A02 /* Assets.xcassets in Resources */,
 				B4A820A622DC6A2900893A02 /* Main.storyboard in Resources */,
 			);
