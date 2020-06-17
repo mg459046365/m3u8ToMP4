@@ -25,7 +25,7 @@ class ViewController: UIViewController, M3U8ParseHandlerProtocol {
     let testTSPath = Bundle.main.path(forResource: "1581232248000_1581232271000_result", ofType: "ts")
     let testMP4Path = NSHomeDirectory() + "/Documents" + "/" + "1581232248000_1581232271000" + ".mp4"
 //    let url = "http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8"
-    let url = "https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/biz/0505050505050112/1575854324000_1575854354000.m3u8?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1578565027&Signature=hJlEcVFQ5vV/qnudT9C+BrULrGg="
+    let url = "https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/biz/0505050505050112/1583683204756_1583684029458.m3u8?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1586328472&Signature=r4oWWIIue+TnrlKDXrrPWKgeoTw="
 
 //    let url = "https://scpub-oss1.antelopecloud.cn/records/m3u8_info2/1566871533_1566871564.m3u8?access_token=540410181_3356491776_1598269035_3f2016cdb608714b606a99234929037c&head=1"
 

@@ -42,6 +42,7 @@
 		B4ECB44022DDD28100C2FFF6 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ECB43322DDD28100C2FFF6 /* libswscale.a */; };
 		B4ECB44A22DDD6BE00C2FFF6 /* ffmpeg_hw.c in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB44922DDD6BD00C2FFF6 /* ffmpeg_hw.c */; };
 		B4ECB44F22DDE53500C2FFF6 /* 100000002_record_result.ts in Resources */ = {isa = PBXBuildFile; fileRef = B4ECB44E22DDE53500C2FFF6 /* 100000002_record_result.ts */; };
+		B4F5A4DA24162D43008F88F2 /* 1583683204756_1583684029458.m3u8 in Resources */ = {isa = PBXBuildFile; fileRef = B4F5A4D924162D43008F88F2 /* 1583683204756_1583684029458.m3u8 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -217,6 +218,7 @@
 		B4ECB44822DDD3CD00C2FFF6 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		B4ECB44922DDD6BD00C2FFF6 /* ffmpeg_hw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffmpeg_hw.c; sourceTree = "<group>"; };
 		B4ECB44E22DDE53500C2FFF6 /* 100000002_record_result.ts */ = {isa = PBXFileReference; lastKnownFileType = file; path = 100000002_record_result.ts; sourceTree = "<group>"; };
+		B4F5A4D924162D43008F88F2 /* 1583683204756_1583684029458.m3u8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1583683204756_1583684029458.m3u8; sourceTree = "<group>"; };
 		CA16D47D66F5F411EA72F760 /* libPods-M3U8TOMP4Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-M3U8TOMP4Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -274,6 +276,7 @@
 		B4473EF722DC7DB500D415B9 /* M3U8 */ = {
 			isa = PBXGroup;
 			children = (
+				B4F5A4D924162D43008F88F2 /* 1583683204756_1583684029458.m3u8 */,
 				B498250A23F1080100DC4812 /* 1581232248000_1581232271000_result.ts */,
 				B4ECB44E22DDE53500C2FFF6 /* 100000002_record_result.ts */,
 				B4ECB2EF22DDBE9400C2FFF6 /* 100000002_record.m3u8 */,
@@ -654,6 +657,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A820AB22DC6A2C00893A02 /* LaunchScreen.storyboard in Resources */,
+				B4F5A4DA24162D43008F88F2 /* 1583683204756_1583684029458.m3u8 in Resources */,
 				B4ECB2F022DDBE9400C2FFF6 /* 100000002_record.m3u8 in Resources */,
 				B4ECB44F22DDE53500C2FFF6 /* 100000002_record_result.ts in Resources */,
 				B498250B23F1080100DC4812 /* 1581232248000_1581232271000_result.ts in Resources */,

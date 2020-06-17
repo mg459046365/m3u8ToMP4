@@ -40,13 +40,12 @@ class M3U8ParseHandler {
             }
             return
         }
-
-//        guard m3u8URL.hasSuffix(".m3u8") else {
-//            if let delegate = self.delegate {
-//                delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 1, message: "链接错误"))
-//            }
-//            return
-//        }
+        guard let comp = URLComponents(string: m3u8URL), comp.percentEncodedPath.hasSuffix(".m3u8") else {
+            if let delegate = self.delegate {
+                delegate.parseFinish(parser: self, M3U8: nil, error: M3U8ParseError(code: 1, message: "链接错误"))
+            }
+            return
+        }
 
         guard let resURL = URL(string: m3u8URL) else {
             if let delegate = self.delegate {
@@ -102,7 +101,7 @@ class M3U8ParseHandler {
                 let index = tmpStr.index(tmpStr.endIndex, offsetBy: -2)
                 tmpStr = String(describing: tmpStr[tmpStr.startIndex ... index])
             }
-           
+
             let tmpArray = tmpStr.components(separatedBy: "\n")
             if tmpArray.isEmpty {
                 if let delegate = self.delegate {

@@ -1,0 +1,222 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-TARGETDURATION:9
+#EXTINF:6.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683204756.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787210&Signature=2gVXcs7SqtkUL/jqx4KxvX9YWvY=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683210820.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787218&Signature=zk7roAfYQNNsz+cAfcYUYBHaCw0=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683218790.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787226&Signature=B9JoGVe/BEIUyiz36WrS6d6q4GE=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683226792.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787235&Signature=jm+Jc4BUX92hv3P1kgYzwqxL/HQ=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683234795.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787242&Signature=oWKn9x/mFu64XXcm/+LwX7JvFqA=
+#EXTINF:8.03, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683242811.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787251&Signature=H+tby8DFFWoLmFPafMr32ceweBY=
+#EXTINF:6.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683250804.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787256&Signature=RdzTLWyEmJONQg4mYKq2twrJMKI=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683256860.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787265&Signature=12vBNoq2XHEFC4pT6OlC17q+cfo=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683264846.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787272&Signature=KSZLVqhkr4moPwyDVpMYzwHt3Xo=
+#EXTINF:8.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683272825.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787281&Signature=mRzjaPTk9by3cpXkwoiMifMVVrs=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683280868.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787289&Signature=GRdsa92FKDQ0CQBWycQhL8XmfRs=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683288864.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787297&Signature=aPndc5TXVp6Ddd0NQ0eg4Ca8z50=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683296891.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787303&Signature=7VkJ/4HuoNgNaK0LxtePGLv08II=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683302871.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787311&Signature=Av83esQo+AfsuUk8ZFWE4PdQdjs=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683310887.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787319&Signature=xVau470m7qhYdWW9SLOsmRYqdmA=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683318870.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787327&Signature=grK77itfxb3fDTwAiifr1HIhbN8=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683326899.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787335&Signature=mlxaJxY3DpFmSYB6TqjQFmN1Qig=
+#EXTINF:8.03, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683334905.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787343&Signature=CqvjD+PdsjuMdC8VEfexZvsx1tg=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683342905.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787351&Signature=vMtMqyRAF/Ac8yr9oQf1/mwguF8=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683350914.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787357&Signature=8dnf82PjBDccgI3CKwUWrQFWEc0=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683356956.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787365&Signature=KFSeVZq3uTu0GUKx+Rqp3gTXoSk=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683364947.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787373&Signature=i9GKuzYOirdhyWzp1hf19VuEV9E=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683372928.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787381&Signature=Jlq7pGOxqQlIiqmkfM3pCE7isRA=
+#EXTINF:6.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683380913.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787387&Signature=d0PzdvAjRdSQ3UZB1s4MvAAh79I=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683386945.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787395&Signature=tRFQGDyzmp/vvtQHVjkJfJuzleI=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683394960.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787403&Signature=1zdUbEIiV8M3yBzN9PS5h0uzY18=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683402941.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787411&Signature=8aOUy+6EDLthsIRbhThufy2n6/4=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683410952.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787419&Signature=jjcPMaIW9Xg2Z2WLUvNeF6oRZj0=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683418960.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787427&Signature=e08PPDV3jPe1++jLZ5Il8qfp/CA=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683426942.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787435&Signature=wmdkBt/IrbBEang2ljdH5OoXo3Q=
+#EXTINF:8.01, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683434985.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787443&Signature=RCGh8OO9sas2aHLfD+4HLPxaVIg=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683442956.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787449&Signature=QxQrIqBP3DYfCL30Ria060fWRx8=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683449029.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787457&Signature=5QPlmjGooegqlycDM1aJ2Rjc1/g=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683456980.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787463&Signature=sWC1JIca/CRR4jdbjrj2YyFyyPo=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683462981.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787471&Signature=vAbSkSEZdH1JAPwFFlXrJrzPIcg=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683470967.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787479&Signature=TECqV1yy+/rMRnulTMZeRkdNPJA=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683478989.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787485&Signature=yP6sNStqujXNtan73DQNS8vRsMw=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683484972.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787491&Signature=hnm4YDOJquWx+HDKFF7QNzV9tZ0=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683491009.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787499&Signature=hvQIwZyvwNlrwAaPtSefCsPzSzw=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683499013.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787507&Signature=Lek3hGCF//tyaCAwx4V4ypjt4ro=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683506986.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787515&Signature=zLKcFk91iCrI3CM4M+kW+5k1/zg=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683515040.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787523&Signature=QTYjLfGK7Y7OlEH6BLkhXQQeJaE=
+#EXTINF:6.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683523006.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787529&Signature=9QZs3w45hZtuzzaxcEiKRdJB5eE=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683529030.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787537&Signature=9IA0YZHAIPDhFBUuzq911m9qvfo=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683537074.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787545&Signature=au7oejzAz/3LOGAQ9EbCxAC/OF8=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683545075.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787553&Signature=+XNqKxbUjZ5YcEwG03+dVf88LL8=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683553094.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787561&Signature=WqbAbfKJoaCeEGMhylcxebUBnZs=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683561045.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787569&Signature=b2tlCNrLD9O1ycL/xdkvqPKNKzc=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683569083.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787577&Signature=VGWNKYUZAWYmTtA9X37HtdSgXmY=
+#EXTINF:6.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683577057.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787583&Signature=IZfTgxEmu8aZV+RBN8QrzBNAblE=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683583075.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787591&Signature=dlCavb8sDNnSddL8vCTAlRzcZhg=
+#EXTINF:8.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683591126.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787599&Signature=gbf978yCL5ENQ2t0ETdq28pC5t8=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683599144.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787607&Signature=CHSQvWNbv/UUj32gDw8eI88uof0=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683607100.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787615&Signature=T0m6ozxYUR217wImo6aYiJvQxm0=
+#EXTINF:6.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683615088.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787621&Signature=bAGXKN/MmZQyOi2q7KdRdCzVXd8=
+#EXTINF:8.02, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683621168.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787629&Signature=d+ACiiuATVOnAQj+EzEV0E/PS/A=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683629110.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787637&Signature=XZB9R/ApXaKJw84atlvXZd30lNU=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683637109.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787645&Signature=anpnGFtwrwqHtFoUNjyflDrNy00=
+#EXTINF:6.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683645147.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787651&Signature=x5Ar7gMH0C9/8LrFlDsZxPaJDOQ=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683651166.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787659&Signature=y1ZaeTeC0lEzNa9QRPpQee8WIKc=
+#EXTINF:8.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683659131.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787667&Signature=qzsycYcGc5cYIvhM6J9u+ccY3fY=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683667202.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787675&Signature=A6n8kXJ56cENdiHBd2zWdMWLkSE=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683675148.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787683&Signature=2RPvHeWALUKJ32rYxuXNwCjuuNI=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683683180.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787691&Signature=uRp8ahWarzdtnNAOJ7HlChtszrw=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683691191.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787699&Signature=u7m2hmOC84U/ggaGulwbPQzCKCw=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683699160.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787707&Signature=j0xPlGtBsuMF+MLXnvNfLASp+4k=
+#EXTINF:8.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683707166.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787715&Signature=/CR4DB9BiN1Yja727ZZkN7Jm1ZU=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683715202.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787723&Signature=re7hK1IoxCNYZOdlEZu69j3jlRg=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683723149.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787731&Signature=SSvwO22461GfQd5cXt7djb6LbxU=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683731156.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787737&Signature=aXtZaHXg9b1uj8rvIrQ6ofSK01c=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683737166.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787745&Signature=jT43LKbv3tZ9QuQbcrj57R53hhs=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683745165.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787753&Signature=6S019eJUAe8bgUS7a9yuJ+eVI54=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683753174.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787759&Signature=7m7H6qb3NVIhONOKPra8UCQWShQ=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683759181.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787767&Signature=uM2mpTtoEEojc0jO5Yp5dWdWtkw=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683767189.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787775&Signature=0JAoND3lC5opeX37gKBwgd/2mbw=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683775207.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787781&Signature=R9X2LDrlABgotPzCrNHT/lFY2lI=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683781187.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787789&Signature=ArivjSOyJVNPC0JILlODzgh23cA=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683789209.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787797&Signature=ceFXLH+Tp+1jjr5YoK+Z5+54ahQ=
+#EXTINF:8.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683797222.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787805&Signature=47Ukg4v9dN2pZoBfxSUCxlwj78k=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683805231.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787813&Signature=4jBECCqCdJiWDWkxp+/0LtTEiUs=
+#EXTINF:8.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683813213.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787821&Signature=0brWYEKKr2N5ZuE6P8YJ6TEHZ7g=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683821226.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787829&Signature=xaQ2AlYpTvGcwa2IBHInv2KfcLo=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683829235.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787837&Signature=GXQYjnnKICS0v0tzy/2qmTMwPIk=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683837240.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787845&Signature=J8IldJm+Ds/bSvSK2ecTBRBlTSQ=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683845241.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787853&Signature=5y7GHgqGZnFwcESjMxWpwU+8ShE=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683853258.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787861&Signature=Y/t9TWHcZzsbrb3f8MrD+CmAnRQ=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683861265.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787869&Signature=6Rem/lE6w3J1wHehPGnClf66Lqw=
+#EXTINF:8.03, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683869277.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787877&Signature=rG+gvQOt7A352HTX7bqJhviRpyE=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683877271.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787883&Signature=tsmcO+LIqyyzP30MB572bc0tdLw=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683883281.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787891&Signature=ZswR0AWto2sd1LPMNP7E+6FvivY=
+#EXTINF:8.03, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683891341.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787899&Signature=xCX3sArdL/g7zo+s8g6P1zGZoBo=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683899300.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787907&Signature=FEUpipITeqOjTwEip0ay9qbnwl0=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683907339.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787915&Signature=esNnDz6tfWSWVa7+QsKvhn1nBJ8=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683915314.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787921&Signature=hKveJujkbVQd2HFC+rYDWkUfn5c=
+#EXTINF:8.03, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683921329.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787929&Signature=VkuZyUoyVKRlLe2g/Yr9CTcEXDo=
+#EXTINF:8.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683929364.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787937&Signature=ZOtfLqxi6LXDybAo7pc7RxfS9Qc=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683937352.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787945&Signature=ux7F2cjwIQt7Jp4oALfZ7dma8bI=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683945360.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787953&Signature=1Cerj6CTP492dJCP8z44IZCxypU=
+#EXTINF:8.05, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683953376.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787961&Signature=OFALXE79r5FkFobdtjmHPyWsRBo=
+#EXTINF:8.02, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683961374.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787969&Signature=SVXM4xubxQpnvyJMlPkhaJd94f0=
+#EXTINF:8.04, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683969374.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787977&Signature=rMe6lxF1R9Ir05GsbobB5xvWT4I=
+#EXTINF:6.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683977438.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787983&Signature=jPNb2w5Nr1lQ1b3aaIMlrowcZI4=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683983375.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787991&Signature=SxU/9hltO6qg1UXILce5pbWnbYg=
+#EXTINF:8.03, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683991415.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614787999&Signature=ywJTvrKg7c7ALW7LB4mDfUHmyLE=
+#EXTINF:8.03, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583683999397.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614788007&Signature=tWu+Qq955C0//mNEQ49kZtgyobM=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583684007385.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614788015&Signature=EksEHXFnovpWNbuMTSRVBXvXaTU=
+#EXTINF:8.06, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583684015430.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614788023&Signature=BnAalyibKnRYRFgmGWN8tP8D8Qg=
+#EXTINF:6.07, no desc
+https://ks3-cn-beijing.ksyun.com/ivms-vms-test/records/hls/live/sqGTl1L2y1Am/1583684023388.ts?KSSAccessKeyId=AKLTti6U2QSES-q-QoqaVGBCeQ&Expires=1614788029&Signature=PGqPq/X47r3QXG1NWl1mzFb3Sqc=
+#EXT-X-ENDLIST
